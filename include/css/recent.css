@@ -1,0 +1,650 @@
+header > .logocircle {
+    width: 86px;
+    height: 86px;
+    left: 43px;
+    top: 43px;
+    -webkit-animation: cssAnimation 15s 20 linear;
+    -moz-animation: cssAnimation 15s 20 linear;
+    -o-animation: cssAnimation 15s 20 linear;
+}
+header article {
+    font-size: 30px;
+    font-family: "neoubold";
+    color: #8FB177;
+    text-align: left;
+    width: 270px;
+    top: 250px;
+    right: 294px;
+    text-shadow: 0px 0px 6px #333333, 0px 0px 7px #333333, 0px 0px 10px #333333;
+}
+
+header article, header > .logo, header .rightsideimg {
+    position: absolute;
+}
+header .rightsideimg {
+    right: 0px;
+    top: 130px;
+    background: url("http://hesk.imusictech.net/ibikeapps/include/image/common/gra_colorbar.png") 130px 12px no-repeat;
+    width: 280px;
+}
+header {
+    position: relative;
+    height: 450px;
+    background: url("http://hesk.imusictech.net/ibikeapps/include/image/common/gra_top.png") 0px 0px no-repeat;
+}
+header .logout{
+    font-family: "neoubold";
+    position: absolute;
+    font-size: 25px;
+    color: #00ADFF;
+    right: 20px;
+    top: 20px;
+}
+.ibikewheel {
+    top: -6px;
+    right: 50px;
+    position: relative;
+    height: 287px;
+    width: 287px;
+    background: url("http://hesk.imusictech.net/ibikeapps/include/image/common/logo_ibike_L.png") 0 0 repeat;
+    -webkit-animation: wheelAction 1s forwards 1 ease-out;
+    -moz-animation: wheelAction 1s forwards 1 ease-out;
+    -ms-animation: wheelAction 1s forwards 1 ease-out;
+    animation: wheelAction 1s forwards 1 ease-out;
+}
+
+header .login {
+    position: relative;
+    height: 104px;
+    width: 231px;
+    background: url("http://hesk.imusictech.net/ibikeapps/include/image/common/btn_fb.png") 0 -104px repeat;
+    top: 80px;
+    left: 130px;
+    cursor: pointer;
+}
+header .login:hover {
+    background-position: 0 0px;
+}
+.bikes_2 {
+    -webkit-animation: backgroundXX5 20s forwards infinite linear;
+    -moz-animation: backgroundXX5 20s forwards infinite linear;
+    -ms-animation: backgroundXX5 20s forwards infinite linear;
+    animation: backgroundXX5 20s forwards infinite linear;
+    background-image: url("http://hesk.imusictech.net/ibikeapps/include/image/common/gra_bike_g.png");
+}
+.bikes_1 {
+    -webkit-animation: backgroundXX4 13s forwards infinite linear;
+    -moz-animation: backgroundXX4 13s forwards infinite linear;
+    -ms-animation: backgroundXX4 13s forwards infinite linear;
+    animation: backgroundXX4 13s forwards infinite linear;
+    background-image: url("http://hesk.imusictech.net/ibikeapps/include/image/common/gra_bike_p.png");
+}
+.bikes_3 {
+    -webkit-animation: backgroundXX4 15s forwards infinite linear;
+    -moz-animation: backgroundXX4 15s forwards infinite linear;
+    -ms-animation: backgroundXX4 15s forwards infinite linear;
+    animation: backgroundXX4 15s forwards infinite linear;
+    background-image: url("http://hesk.imusictech.net/ibikeapps/include/image/common/gra_bike_b.png");
+}
+.bikes_4 {
+    -webkit-animation: backgroundXX5 11s forwards infinite linear;
+    -moz-animation: backgroundXX5 11s forwards infinite linear;
+    -ms-animation: backgroundXX5 11s forwards infinite linear;
+    animation: backgroundXX5 11s forwards infinite linear;
+    background-image: url("http://hesk.imusictech.net/ibikeapps/include/image/common/gra_bike_y.png");
+}
+.bikes_5 {
+    -webkit-animation: backgroundXX3 8s forwards infinite linear;
+    -moz-animation: backgroundXX3 8s forwards infinite linear;
+    -ms-animation: backgroundXX3 8s forwards infinite linear;
+    animation: backgroundXX3 8s forwards infinite linear;
+    background-image: url("http://hesk.imusictech.net/ibikeapps/include/image/common/gra_index_bike.png");
+}
+.bikes_5, .bikes_4, .bikes_3, .bikes_1, .bikes_2 {
+    opacity: 0.55;
+    position: absolute;
+    height: 106px;
+    width: 100%;
+    top: 208px;
+    z-index: 20;
+    background-repeat: no-repeat;
+}
+.rock {
+    height: 40px;
+    width: 156px;
+    bottom: 0px;
+    left: 70px;
+    position: absolute;
+    background-image: url("http://hesk.imusictech.net/ibikeapps/include/image/common/gra_handle.png");
+}
+.taps {
+    width: 100%;
+    height: 300px;
+    top: 70px;
+    right: -85px;
+    z-index: 1000;
+}
+.taps .item {
+    float: left;
+    margin-left: 70px;
+    width: 127px;
+    height: 142px;
+    background-image: url("http://hesk.imusictech.net/ibikeapps/include/image/common/ui_map_meter.png");
+}
+.taps .item:hover {
+    /*-webkit-animation: shake .41s forwards 1 ease-out;
+     -moz-animation: shake .41s forwards 1 ease-out;
+     -ms-animation: shake .41s forwards 1 ease-out;
+     animation: shake .41s forwards 1 ease-out;
+     */
+}
+.taps .item:first-child {
+    background-position: 0 0;
+}
+.taps .item:nth-child(2) {
+    background-position: -127px 0;
+}
+.taps .item:nth-child(3) {
+    background-position: -254px 0;
+}
+.taps .item:nth-child(4) {
+    background-position: -381px 0;
+}
+.taps .item label, .taps .item .num {
+    position: relative;
+    text-align: center;
+}
+.taps .item label.smalllabel{
+    font-size:15px;
+}
+.taps .item .num {
+    font-size: 30px;
+    font-family: 'bebas_neueregular';
+    top: 85px;
+    color: white;
+}
+.taps .item label {
+    font-size: 20px;
+    font-family: "neoubold";
+    top: 100px;
+    left: -10px;
+    position: relative;
+    display: block;
+    width: 150px;
+    color: white;
+}
+.history .taps{
+    right:-15px;
+    top:84px;
+}
+.history .taps .item{
+     margin-left: 20px;
+    width: 120px;
+    height: 65px;
+    background-image: url("http://hesk.imusictech.net/2012_ibike/include/image/common/gra_score.png");
+}
+.history  .taps .item label{
+    top: -30px;
+}
+.history .taps .num {
+  top: -15px;
+}
+.history .taps .item label.smalllabel{
+    top:0px;
+}
+header .background_banner {
+    position: relative;
+    height: 270px;
+    width: 1030px;
+    background-image: url("http://hesk.imusictech.net/ibikeapps/include/image/common/gra_top_box01.png");
+    background-repeat: repeat-x;
+    opacity: 1;
+    top: 39px;
+    left: 26px;
+    /*	-webkit-animation: backgroundXani 30s forwards infinite linear;
+     -moz-animation: backgroundXani 30s forwards infinite linear;
+     -ms-animation: backgroundXani 30s forwards infinite linear;
+     animation: backgroundXani 30s forwards infinite linear;
+
+     -webkit-animation-name: backgroundXani;
+     -webkit-animation-duration: 5s;
+     -webkit-animation-timing-function: linear;
+     -webkit-animation-iteration-count: infinite;*/
+}
+/*.fb-like {
+ display: block;
+ float: right;
+ margin-right: 180px;
+ z-index: 1;
+ }
+ .nomap .fb-like {
+ display: block;
+ height: 30px;
+ margin: 0;
+ }*/
+.fb-like {
+    display: block;
+    height:40px;
+    z-index: 1;
+    margin-top: 10px;
+}
+#body {
+    background-color: white;
+    min-height: 870px;
+    overflow-x: hidden;
+}
+.background_banner .title.top {
+    font-size: 36px;
+    font-family: 'bebas_neueregular';
+    color: #3A00CA;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+#body .topbar {
+    font-family: "neoubold";
+    color: #7AC943;
+    background-color: black;
+    padding: 0 10px;
+    height: 100px;
+}
+.topbar .homeimg {
+    margin-top: 10px;
+    background: url(http://hesk.imusictech.net/ibikeapps/include/image/common/gra_head_80px.png) 0 0 no-repeat;
+}
+a.homeimg:active, a.homeimg:hover {
+    box-shadow: 0 0 9px 0 white, 0 0 9px 2px white;
+}
+.topbar .homeimg, .topbar .homeimg img {
+    width: 80px;
+    height: 80px;
+}
+.topbar .nameinfo {
+    margin-top: 25px;
+    margin-left: 10px;
+    font-family: 'kenyan_coffee_rgregular';
+}
+.topbar .nameinfo .top {
+    font-size: 28px;
+    line-height: 28px;
+}
+.topbar .nameinfo .places {
+    font-size: 21px;
+    line-height: 21px;
+}
+.topbar .rightfunctions {
+    float: right;
+    margin-top: 15px;
+}
+.topbar .rightfunctions a {
+    display: block;
+    margin-left: 24px;
+    width: 67px;
+    height: 56px;
+    background-color: red;
+    float: left;
+    position: relative;
+}
+.topbar .rightfunctions a.friends {
+    background: url(http://hesk.imusictech.net/ibikeapps/include/image/common/gra_friends_s.png) 0 0 no-repeat;
+}
+.topbar .rightfunctions a.photos {
+    display: none;
+    background: url(http://hesk.imusictech.net/ibikeapps/include/image/common/gra_photos_s.png) 0 0 no-repeat;
+}
+.topbar .rightfunctions a.activities {
+    background: url(http://hesk.imusictech.net/ibikeapps/include/image/common/gra_activities_s.png) 0 0 no-repeat;
+}
+.topbar .rightfunctions a {
+    cursor: pointer;
+}
+.topbar .rightfunctions label {
+    display: block;
+    width: 100%;
+    height: 15px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    bottom: 0px;
+    position: absolute;
+    color: white;
+}
+.topbar > div, .topbar > button, .topbar > a {
+    float: left;
+    display: block;
+}
+.imageUserName.button, .topbar > button {
+    margin-left: 24px;
+    margin-top: 40px;
+    background: rgb(238,238,238);
+    background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1)));
+    background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+    background: -o-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+    background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-family: 'neoubold';
+    padding-top: 8px;
+}
+.imageUserName.button {
+    margin-left: 0px;
+    margin-top: 7px;
+    padding: 0px;
+    display: block;
+    line-height: 29px;
+    padding-left: 6px;
+    padding-top: 4px;
+}
+.topbar > button:active {
+    box-shadow: 0 0 2px 0 #7AC943, 0 0 10px 2px #7AC943;
+}
+.topbar button:hover, .topbar > button:active {
+    background: rgb(226,226,226);
+    background: -moz-linear-gradient(top,  rgba(226,226,226,1) 9%, rgba(183,183,183,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(9%,rgba(226,226,226,1)), color-stop(100%,rgba(183,183,183,1)));
+    background: -webkit-linear-gradient(top,  rgba(226,226,226,1) 9%,rgba(183,183,183,1) 100%);
+    background: -o-linear-gradient(top,  rgba(226,226,226,1) 9%,rgba(183,183,183,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(226,226,226,1) 9%,rgba(183,183,183,1) 100%);
+    background: linear-gradient(to bottom,  rgba(226,226,226,1) 9%,rgba(183,183,183,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#b7b7b7',GradientType=0 );
+}
+button > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#body .bgline {
+    clear: both;
+    position: relative;
+    background: url("http://hesk.imusictech.net/ibikeapps/include/image/common/line_rect.png") 0 0 repeat-x;
+    width: 100%;
+    height: 47px;
+}
+.hr {
+    width: 100%;
+    background: url("http://hesk.imusictech.net/ibikeapps/include/image/common/line_single_green.png") 0 28px repeat-x;
+}
+.hr title {
+    font-family: "neoubold";
+    color: #7AC943;
+    font-size: 30px;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0 10px;
+    line-height: 77px;
+    text-transform: uppercase;
+    text-align: center;
+}
+title.datetime {
+    width: 300px;
+}
+title.datetime.single{
+    margin-left: 86px;
+}
+section.data article {
+    font-family: "neoubold";
+    position: relative;
+    clear: both;
+}
+section.data article .ago, section.data article .date, section.data article .date .hr, section.data article .date span {
+    position: relative;
+}
+section.data article .date {
+    font-family: 'kenyan_coffee_rgregular';
+    width: 173px;
+    height: 138px;
+    float: left;
+    display: block;
+    background: url("http://hesk.imusictech.net/ibikeapps/include/image/common/gra_bike_time.png") 0 0px no-repeat;
+}
+section.data article {
+}
+.container title {
+    font-family: "neoubold";
+    display: block;
+    font-size: 15px;
+}
+.container .title {
+    display: block;
+    clear: left;
+}
+.date .hr {
+    top: 83px;
+    left: 40px;
+    font-size: 45px;
+}
+.date .min span:first-child {
+    top: 36px;
+    left: 132px;
+    font-size: 21px;
+}
+.date .min span:last-child {
+    top: 68px;
+    left: 107px;
+    font-size: 36px;
+}
+.date .ago {
+    top: 73px;
+    right: 8px;
+    font-family: "neoubold";
+    text-align: right;
+}
+.detail > div {
+    width: 100%;
+    /*clear: both;*/
+}
+.detail {
+    width: 800px;
+    position: relative;
+    display: table-cell;
+    left: 170px;
+}
+.detail {
+    display: -moz-groupbox;
+}
+.detail .container {
+    display: table-row;
+    clear: both;
+}
+.container.photosection {
+    width: 478px;
+    background-color: rgba(0,0,0,0.5);
+    display: block;
+    float: left;
+}
+.firefox .container.photosection{
+     display: table-cell;
+     float: none;
+}
+.view_detail {
+    width: 70px;
+    display: block;
+    padding: 4px;
+    padding-top: 8px;
+    float: right;
+    text-align: center;
+    background: rgb(238,238,238);
+    background: -moz-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1)));
+    background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+    background: -o-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+    background: -ms-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+    background: linear-gradient(to bottom, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+    border-radius: 5px;
+}
+.photosection .title {
+    color: white;
+}
+.framephoto {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.serial .framephoto {
+    height: 75px;
+    overflow-y: hidden;
+}
+.detail .title {
+    line-height: 36px;
+    font-size: 20px;
+    width: 80%;
+}
+.detail .functions > div {
+    float: left;
+    display: inline-block;
+}
+.detail .functions, .detail .comments {
+    width: 100%;
+    clear: both;
+    display: block;
+    position: relative;
+}
+.detail .functions {
+    left: 620px;
+    display: none;
+}
+.hear_icon, .comment_icon {
+    background: url("http://hesk.imusictech.net/ibikeapps/include/image/common/ui_map_like.png") no-repeat;
+    height: 20px;
+    cursor: pointer;
+}
+.hear_icon {
+    width: 67px;
+    background-position: 0px -20px;
+}
+.hear_icon:hover, .hear_icon.voted {
+    background-position: 0px 0px;
+}
+.comment_icon {
+    width: 110px;
+    background-position: -69px 0;
+}
+
+.cloudred, .cloudblue {
+    border-radius: 4px;
+    height: 20px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-box-shadow: 0px 0 3px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0 3px rgba(0,0,0,0.25);
+    box-shadow: 0px 0 3px rgba(0,0,0,0.25);
+    padding: 0 3px 0 3px;
+    text-align: center;
+    position: relative;
+    margin: 0 10px;
+    color: white;
+    line-height: 24px;
+}
+.cloudred:before, .cloudblue:before {
+    border: 6px solid;
+    position: absolute;
+    display: block;
+    content: "";
+    left: -12px;
+    top: 4px;
+    height: 0px;
+    width: 0px;
+}
+.cloudred:before {
+    border-color: rgba(204, 112, 112, 0) rgb(0, 255, 133) rgba(123, 255, 0, 0) transparent;
+}
+.cloudred {
+    background-color: #050222;
+}
+.cloudblue:before {
+    border-color: rgba(204, 112, 112, 0) rgb(0, 255, 133) rgba(123, 255, 0, 0) transparent;
+}
+.cloudblue {
+    background-color: #0502f2;
+}
+.map_canvas_preview > div {
+    /* clip-path: url(#c1);
+     clip-path: url(resources.svg#c1);
+     clip-path: rectangle(0%, 0%, 100%, 100%, 20%, 20%); */
+}
+.map_canvas_preview > div > div:first-child {
+
+}
+.map_canvas_preview {
+    -moz-box-shadow: inset 0 0 5px #888;
+    -webkit-box-shadow: inset 0 0 5px #888;
+    box-shadow: inner 0 0 5px #888;
+    overflow: visible !important;
+}
+.map_canvas_preview .gmnoprint > div > span {
+    display: none;
+}
+.userimage {
+    position: relative;
+    width: 80px;
+    top: 0px;
+    left: 78px;
+    float: left;
+    background: url("http://hesk.imusictech.net/ibikeapps/include/image/common/gra_head_80px.png") 0 0px no-repeat;
+    display: table-caption;
+    z-index: 1;
+}
+.userimage img {
+    border: 1px solid black;
+}
+.chrome .userimage {/*
+
+     position: relative;
+     width: 80px;
+     height: 80px;
+     top: 0px;
+     left: 45px;
+     background: url("http://hesk.imusictech.net/ibikeapps/include/image/common/gra_head_80px.png") 0 0px no-repeat;
+     border: 1px solid black;
+     display: table-caption;
+     z-index: 1;*/
+}
+/*---------------*/
+.end .container {
+    width: 600px;
+    margin: 3px auto;
+    text-align: center;
+    border: 1px solid rgb(111, 177, 66);
+    background: #7AC943;
+    cursor:pointer;
+}
+.end .container:hover,
+.end .container:active{
+    background: rgb(177, 235, 137);
+}
+/*==singular detail==*/
+.daterow {
+    clear: both;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.daterow > div {
+    width: auto;
+    margin-right: 5px;
+    border-bottom: 1px solid #7AC943;
+}
+.map_canvas_preview {
+    width: 100%;
+}
+.singular_detail .detail {
+    width: 100%;
+    position: relative;
+    display: block;
+}
+.singular_detail .detail {
+    left: 140px;
+}
+.singular_detail .fb-like {
+    float: right;
+    margin-right: 140px;
+    z-index: 1;
+}

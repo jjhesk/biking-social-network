@@ -1,0 +1,122 @@
+Array
+(
+    [activity_id] => 2466
+    [user_inhouse_id] => 163
+    [app_id] => 2
+    [password] => af478ad4c4439f8578d2c684df05456fcc18887b20130222121937
+    [mode] => auto
+    [title] => iBike Activity
+    [description] => Good Activity
+    [last_updated] => 2013-02-19 10:57:53
+    [has_ended] => 1
+    [coordinates_json] => [{"coordinate_y":"22.425108","coordinate_x":"114.211795"},{"coordinate_y":"22.425108","coordinate_x":"114.211795"},{"coordinate_y":"22.425108","coordinate_x":"114.211795"},{"coordinate_y":"22.425108","coordinate_x":"114.211795"},{"coordinate_y":"22.425108","coordinate_x":"114.211795"},{"coordinate_y":"22.425108","coordinate_x":"114.211795"},{"coordinate_y":"22.425108","coordinate_x":"114.211795"},{"coordinate_y":"22.425108","coordinate_x":"114.211795"}]
+    [avg_speed] => 0
+    [max_speed] => 0
+    [avg_temperature] => 0
+    [avg_heart_rate] => 0
+    [max_heart_rate] => 0
+    [total_distance] => 0
+    [elapse_time] => 0
+    [elapse_time_sec] => 0
+    [start_time] => 2013-02-22 20:17:09
+    [end_time] => 2013-02-22 20:17:09
+    [total_calories] => 0
+    [custom_data_json] => NoRecord
+    [kml_path] => <?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1"><Document><Placemark id="path"><LineString><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>114.211795,22.425108,0 114.211795,22.425108,0 114.211795,22.425108,0 114.211795,22.425108,0 114.211795,22.425108,0 114.211795,22.425108,0 114.211795,22.425108,0 114.211795,22.425108,0 </coordinates></LineString></Placemark><Placemark id="starting_point"><Point><coordinates>114.211795,22.425108</coordinates></Point></Placemark><Placemark id="ending_point"><Point><coordinates>114.211795,22.425108</coordinates></Point></Placemark></Document></kml>
+
+    [kml_checkpoints] => <?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1"><Document><Placemark id="path"><LineString><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>114.211795,22.425108,0 114.211795,22.425108,0 114.211795,22.425108,0 114.211795,22.425108,0 114.211795,22.425108,0 114.211795,22.425108,0 114.211795,22.425108,0 114.211795,22.425108,0 </coordinates></LineString></Placemark></Document></kml>
+
+    [prev_activity_id] => 2465
+    [next_activity_id] => 2466
+    [privacy] => default
+    [ip] => 
+    [app_users_data_id] => 
+    [photo] => Array
+        (
+            [0] => Array
+                (
+                    [photo_id] => 856
+                    [activity_id] => 2466
+                    [timestamp] => 2013-02-22 12:19:58
+                    [photo_description] => 
+                    [thumb_url] => https://fbcdn-photos-a.akamaihd.net/hphotos-ak-ash3/521441_219587268179045_1630448226_t.jpg
+                    [full_url] => https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-ash3/s720x720/521441_219587268179045_1630448226_n.jpg
+                    [original_url] => https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-ash3/s2048x2048/521441_219587268179045_1630448226_n.jpg
+                    [fbid] => 219587268179045
+                )
+
+            [1] => Array
+                (
+                    [photo_id] => 857
+                    [activity_id] => 2466
+                    [timestamp] => 2013-02-22 12:20:05
+                    [photo_description] => 
+                    [thumb_url] => https://fbcdn-photos-a.akamaihd.net/hphotos-ak-ash4/487182_219587291512376_1464457709_t.jpg
+                    [full_url] => https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-ash4/s720x720/487182_219587291512376_1464457709_n.jpg
+                    [original_url] => https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-ash4/s2048x2048/487182_219587291512376_1464457709_n.jpg
+                    [fbid] => 219587291512376
+                )
+
+            [2] => Array
+                (
+                    [photo_id] => 858
+                    [activity_id] => 2466
+                    [timestamp] => 2013-02-22 12:20:12
+                    [photo_description] => 
+                    [thumb_url] => https://fbcdn-photos-a.akamaihd.net/hphotos-ak-prn1/58816_219587311512374_1315274974_t.jpg
+                    [full_url] => https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-prn1/s720x720/58816_219587311512374_1315274974_n.jpg
+                    [original_url] => https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-prn1/s2048x2048/58816_219587311512374_1315274974_n.jpg
+                    [fbid] => 219587311512374
+                )
+
+            [3] => Array
+                (
+                    [photo_id] => 859
+                    [activity_id] => 2466
+                    [timestamp] => 2013-02-22 12:20:19
+                    [photo_description] => 
+                    [thumb_url] => https://fbcdn-photos-a.akamaihd.net/hphotos-ak-snc6/251793_219587331512372_1682723707_t.jpg
+                    [full_url] => https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-snc6/s720x720/251793_219587331512372_1682723707_n.jpg
+                    [original_url] => https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-snc6/s2048x2048/251793_219587331512372_1682723707_n.jpg
+                    [fbid] => 219587331512372
+                )
+
+        )
+
+    [nickname] => Leonard Nimoy
+    [firstname] => Leonard
+    [lastname] => Nimoy
+    [email] => facebook@it.imusictech.com
+    [email_privacy] => 1
+    [language] => en_US
+    [country] => 
+    [createdate] => 
+    [del] => n
+    [career] => 
+    [profile_image] => http://profile.ak.fbcdn.net/hprofile-ak-prn1/c29.10.122.122/s100x100/59519_200409440096828_788917531_a.jpg
+    [gender] => m
+    [height] => 
+    [height_privacy] => 1
+    [weight] => 
+    [weight_privacy] => 1
+    [birthday] => 
+    [birthday_privacy] => 1
+    [apps_installed] => 
+    [default_privacy] => public
+    [social_media_publication] => facebook
+    [photo_publication] => facebook
+    [customize_edit_count] => 0
+    [phone] => 
+    [map] => Array
+        (
+            [html] => <div class="map_canvas_preview" id="canvasmap_2466" style="width:478px; height:160px;"></div>
+            [js] => 
+        )
+
+    [up_hour] => 10
+    [up_min] => 57
+    [up_ago] => 4 days ago
+    [up_apm] => AM
+)

@@ -1,0 +1,33 @@
+
+body {
+	background: white;
+	/*padding:5px 2em 2em 2em;*/
+	font-size: 13px; 
+	font-family: Calibri, serif,微软雅黑,Tahoma,  Helvetica, Sans-Serif;
+	color: #6E02B7;
+	/*line-height: 150%;*/
+	margin: 5px;
+		text-shadow:0 1px 0 rgba(255,255,255,.8);
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+a.infomail:link, a.infomail:visited, a.infomail:active, a.infomail:hover {
+	font-family:"Calibri, serif";
+	font-size:11pt;
+	text-decoration:underline;
+	color:#000000;
+}
+
+a.highslide-credits,
+a.highslide-credits i {
+    padding: 2px;
+    color: silver;
+    text-decoration: none;
+	font-size: 10px;
+}
+a.highslide-credits:hover,
+a.highslide-credits:hover i {
+    color: white;
+    background-color: gray;
+}
+

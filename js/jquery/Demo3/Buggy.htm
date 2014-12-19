@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Buggy</title>
+    <script src="js/jquery-1.2.6.js" type="text/javascript"></script>
+</head>
+<body>
+<form>
+<div>One</div>
+<div>Two</div>
+<div>Three</div>
+<script type="text/javascript">
+    $(function() {
+        $("<span>Four</span>").appendTo("body");
+    });
+</script>
+</form>
+</body>
+</html>

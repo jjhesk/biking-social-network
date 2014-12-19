@@ -1,0 +1,2 @@
+1362157299TS---><?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1"><Document><Placemark id="path"><LineString><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates></coordinates></LineString></Placemark><Placemark id="starting_point"><Point><coordinates>,</coordinates></Point></Placemark><Placemark id="ending_point"><Point><coordinates>,</coordinates></Point></Placemark></Document></kml>

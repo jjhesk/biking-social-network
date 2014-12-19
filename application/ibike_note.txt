@@ -1,0 +1,21 @@
+X. login area (use the plugin component of login)
+   X boot up the login area
+2. api (LV0)
+   X cateate activity model 
+   X open graph object
+   - submit multiple activity photo
+     - plan A: define into several upload link in iphone
+     - plan B: define into one upload link in iphone, server use multiple link submit to facebook	 
+   X login area
+   X user register api after facebook login for mobile
+   * need ctrl_login, ctrl_activity for creating activity 
+3. ctrl_activity (LV1)
+   X load me and all friend activity list by user_inhouse_id 
+   X list all friend list 
+   - allow hesk to get single activity data and photo
+   - need generate google map  
+   - create activity for mobile submitation
+   * need mod_facebook_model, mod_friend_model
+   
+facebook February 2013 Breaking Changes
+

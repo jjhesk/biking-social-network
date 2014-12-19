@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	RewriteBase /2012_ibike
+	# Hide the application and system directories by redirecting the request to index.php
+	RewriteRule ^(application|system|\.svn) index.php/$1 [L]
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ /2012_ibike/index.php/$1 [QSA,L]	
+
+</IfModule>	
